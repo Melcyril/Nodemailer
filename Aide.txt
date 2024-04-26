@@ -1,0 +1,26 @@
+------------------------------------------------------Envoyer un email avec Nodemailer-------------------------------------- 
+PS: avec compte outlook, test avec un compte gmail qui n'a pas fonctionné
+
+Creer un projet node.js
+
+
+
+- Créer un dossier node-email-form
+utiliser le path du dossier dans le terminal 
+------------------------------------------------------------------------------> cd node-email-form
+------------------------------------------------------------------------------> npm init
+
+
+
+
+- Ajouter les dépendances utiles à l'envoie de mail
+
+------------------------------------------------------------------------------> npm install express body-parser cors nodemail
+
+
+- Vérification si les dépendances et "main": "index.js" sont dans package.json. 
+
+
+- Création du fichier index.js. 
+Pour executer
+------------------------------------------------------------------------------> node index.js
